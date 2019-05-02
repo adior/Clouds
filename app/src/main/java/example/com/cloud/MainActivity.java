@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private CoordinatorFragment fragment4;
     private CoordinatorFragment fragment5;
     private Fragment[] fragments;
-    private int lastfragment;//用于记录上个选择的Fragment
+    private int lastfragment;// 用于记录上个选择的Fragment
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
