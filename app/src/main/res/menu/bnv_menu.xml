@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="首页"
+        android:icon="@drawable/ic_android_black_24dp"/>
+
+    <item
+        android:id="@+id/action_explore"
+        android:title="逛街"
+        android:icon="@drawable/ic_logo2_24dp"/>
+
+    <item
+        android:id="@+id/action_me"
+        android:title="圣殿"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"/>
+
+    <item
+        android:id="@+id/action_to"
+        android:title="社团"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"/>
+
+    <item
+        android:id="@+id/action_th"
+        android:title="发现"
+        android:icon="@drawable/ic_arrow_forward_black_24dp"/>
+
+
+</menu>

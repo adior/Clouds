@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="fab_ripple">#656565</color>
+    <color name="nav_item_bg">#656564</color>
+    <color name="color_D4F668">#D81B60</color>
+    <color name="color_2F9DD2">#787878</color>
+    <color name="selector_blue">#635436</color>
+    <color name="gray">#A65A52</color>
+</resources>
