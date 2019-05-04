@@ -1,4 +1,4 @@
-package example.com.cloud;
+package example.com.widget;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -18,6 +18,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import example.com.cloud.R;
 
 /**
  * Created by IT-CTY on 2018/4/25.
