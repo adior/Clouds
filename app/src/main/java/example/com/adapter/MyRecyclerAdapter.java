@@ -1,10 +1,8 @@
-package example.com.cloud;
+package example.com.adapter;
 
 import android.content.Context;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,16 +11,19 @@ import android.widget.TextView;
 
 import java.util.List;
 
+import example.com.cloud.R;
+import example.com.util.ImageViewTool;
+
 /**
  * Created by guwei on 16-7-28.
  */
-public class MyAdapter extends RecyclerView.Adapter<MyViewHolder>{
+public class MyRecyclerAdapter extends RecyclerView.Adapter<MyViewHolder>{
     private LayoutInflater inflater;
     private Context mContext;
     private List<String> mDatas;
 
     //创建构造参数
-    MyAdapter(Context context, List<String> datas){
+    public MyRecyclerAdapter(Context context, List<String> datas){
         this.mContext = context;
         this.mDatas = datas;
         inflater = LayoutInflater.from(context);

@@ -19,6 +19,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
+import example.com.adapter.MyRecyclerAdapter;
 import example.com.cloud.R;
 
 /**
@@ -32,7 +33,7 @@ public class CoordinatorFragment extends Fragment {
 //    private RecyclerView mRecycleView1;
     private List<String> mData;
 //    private List<String> mData1;
-    private MyAdapter myAdapter;
+    private MyRecyclerAdapter myRecyclerAdapter;
 //    private MyAdapter myAdapter1;
     private SwipeRefreshLayout swipeRefreshLayout;
     private TabLayout mytab;
@@ -84,9 +85,9 @@ public class CoordinatorFragment extends Fragment {
 //
     private void initview() {
 
-        myAdapter = new MyAdapter(getContext(), mData);
+        myRecyclerAdapter = new MyRecyclerAdapter(getContext(), mData);
 //        myAdapter1 = new MyAdapter(getContext(), mData1);
-        mRecycleView.setAdapter(myAdapter);//设置适配器
+        mRecycleView.setAdapter(myRecyclerAdapter);//设置适配器
 //        mRecycleView1.setAdapter(myAdapter1);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(), 2);
 //        GridLayoutManager gridLayoutManager1 = new GridLayoutManager(getContext(), 2);

@@ -1,4 +1,4 @@
-package example.com.cloud;
+package example.com.util;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -6,7 +6,6 @@ import android.util.DisplayMetrics;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 
 public class ImageViewTool {
     public static void matchAll(Context context, ImageView imageView,int columnCount) {

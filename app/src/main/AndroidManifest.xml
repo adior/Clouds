@@ -18,7 +18,7 @@
         <!-- <activity android:name=".TitleBarHomeActivity"> -->
         <activity android:name=".MainActivity">
             <!--<meta-data-->
-                <!--android:name="example.com.cloud.MyGlideModule"-->
+                <!--android:name="example.com.module.MyGlideModule"-->
                 <!--android:value="GlideModule" />-->
 
              <!--<activity android:name=".GuideActivity"> -->

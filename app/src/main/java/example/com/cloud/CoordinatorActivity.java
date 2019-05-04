@@ -1,4 +1,4 @@
-package example.com.widget;
+package example.com.cloud;
 
 
 import android.os.Bundle;
@@ -14,6 +14,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
+import example.com.adapter.MyAdapter;
 import example.com.cloud.R;
 
 

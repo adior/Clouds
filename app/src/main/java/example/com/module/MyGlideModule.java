@@ -1,4 +1,4 @@
-package example.com.cloud;
+package example.com.module;
 
 import android.content.Context;
 
@@ -11,6 +11,7 @@ import com.bumptech.glide.load.model.GlideUrl;
 import java.io.InputStream;
 import java.util.concurrent.TimeUnit;
 
+import example.com.cloud.OkHttpGlideUrlLoader;
 import okhttp3.OkHttpClient;
 
 public abstract class MyGlideModule implements GlideModule {
