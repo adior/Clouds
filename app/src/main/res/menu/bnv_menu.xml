@@ -26,5 +26,4 @@
         android:title="发现"
         android:icon="@drawable/ic_arrow_forward_black_24dp"/>
 
-
 </menu>
