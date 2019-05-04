@@ -52,7 +52,7 @@ public class CoordinatorActivity extends AppCompatActivity {
 
         mRecycleView = (RecyclerView) findViewById(R.id.recycler_view_coor);
 
-        myAdapter = new MyAdapter(this, mData);
+        myAdapter = new MyRecyclerAdapter(this, mData);
         mRecycleView.setAdapter(myAdapter);//设置适配器
 
 
