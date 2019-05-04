@@ -14,7 +14,7 @@ import android.util.Log;
 import java.util.ArrayList;
 import java.util.List;
 
-import example.com.adapter.MyAdapter;
+import example.com.adapter.MyRecyclerAdapter;
 import example.com.cloud.R;
 
 
@@ -23,7 +23,7 @@ public class CoordinatorActivity extends AppCompatActivity {
     public String TAG = "RECYCLE";
     private RecyclerView mRecycleView;
     private List<String> mData;
-    private MyAdapter myAdapter;
+    private MyRecyclerAdapter myAdapter;
     private SwipeRefreshLayout swipeRefreshLayout;
 
     @Override
