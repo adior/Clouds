@@ -2,10 +2,29 @@ apply plugin: 'com.android.application'
 
 android {
 
+
+    sourceSets {
+        main {
+            res.srcDirs =
+                    [
+                            'src/main/res/layouts/others',
+                            'src/main/res/layouts/is_for_adapter',
+                            'src/main/res/layouts/items',
+                            'src/main/res/layouts/activities',
+                            'src/main/res/layouts/fragments',
+                            'src/main/res/layouts/content',
+                            'src/main/res/layouts',
+                            'src/main/res'
+                    ]
+        }
+    }
+
     repositories {
         flatDir{
             dirs'libs'
         }
+
+
     }
 
     compileOptions {
@@ -39,6 +58,9 @@ dependencies {
     //启用导入的arr文件
     implementation (name:'base-adapter-library-release',ext:'aar')
     implementation (name:'baseadapter-recyclerview-release',ext:'aar')
+//    implementation (name:'adaptersample')
+    //导入的文件
+
 
     implementation('com.github.bumptech.glide:glide:4.8.0') {
         exclude group: "com.android.support"

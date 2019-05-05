@@ -1,4 +1,4 @@
-package example.com.cloud;
+package example.com.activities;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import java.io.IOException;
 
+import example.com.cloud.R;
 import example.com.widget.CoordinatorFragment;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -18,7 +19,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity {
+public class ChooseFragmentActivity extends AppCompatActivity {
 
     private BottomNavigationView bottomNavigationView;
     private CoordinatorFragment fragment1;
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_choose_fragment);
         initFragment();
         initHttp();
     }

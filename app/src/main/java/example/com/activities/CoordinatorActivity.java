@@ -1,4 +1,4 @@
-package example.com.cloud;
+package example.com.activities;
 
 
 import android.os.Bundle;

@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme.NoActionBar">
 
         <!-- <activity android:name=".TitleBarHomeActivity"> -->
-        <activity android:name=".MainActivity">
+        <activity android:name="example.com.activities.MainActivity">
             <!--<meta-data-->
                 <!--android:name="example.com.module.MyGlideModule"-->
                 <!--android:value="GlideModule" />-->
@@ -29,6 +29,11 @@
             </intent-filter>
         </activity>
         <!--<activity android:name=".CoordinatorActivity"/>-->
+        <activity android:name="example.com.activities.MultiItemListViewActivity"/>
+        <activity android:name="example.com.activities.RecyclerViewActivity"/>
+        <activity android:name="example.com.activities.MultiItemRvActivity"/>
+        <activity android:name="example.com.activities.ChooseFragmentActivity"/>
+        <activity android:name="example.com.activities.CoordinatorActivity"/>
     </application>
 
 </manifest>
