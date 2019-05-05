@@ -29,7 +29,7 @@
                 android:layout_height="?attr/actionBarSize"
                 android:background="@drawable/ic_image3"
                 app:layout_collapseMode="pin"
-                app:layout_scrollFlags="scroll|enterAlways"></android.support.v7.widget.Toolbar>
+                app:layout_scrollFlags="scroll|enterAlways"/>
 
             </android.support.design.widget.CollapsingToolbarLayout>
 
